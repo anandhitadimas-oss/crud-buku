@@ -1,0 +1,120 @@
+/* ====== Global ====== */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background: #f9f9f9;
+  color: #333;
+}
+
+header h1 {
+  margin-bottom: 20px;
+  color: #007bff;
+}
+
+main {
+  background: #fff;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* ====== Navigation ====== */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px 0;
+  display: flex;
+  gap: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* ====== Table ====== */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background: #fff;
+}
+
+table th, table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+table th {
+  background: #007bff;
+  color: white;
+}
+
+table tr:nth-child(even) {
+  background: #f2f2f2;
+}
+
+/* ====== Buttons & Links ====== */
+button, .btn {
+  display: inline-block;
+  padding: 8px 12px;
+  background: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover, .btn:hover {
+  background: #0056b3;
+}
+
+.btn-edit {
+  color: #28a745;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.btn-edit:hover {
+  text-decoration: underline;
+}
+
+.btn-delete {
+  color: #dc3545;
+  text-decoration: none;
+}
+
+.btn-delete:hover {
+  text-decoration: underline;
+}
+
+/* ====== Forms ====== */
+form {
+  max-width: 400px;
+}
+
+form label {
+  font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* ====== Messages ====== */
+.warning {
+  color: red;
+  font-weight: bold;
+}
