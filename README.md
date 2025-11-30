@@ -44,9 +44,7 @@ README.md
  - Buka phpMyAdmin
  - Import file `schema.sql`
 2. Atur koneksi database di `class/Database.php`
-3. Jalankan server PHP:
- ```bash
- php -S localhost:8000
+3. jika memakai xampp http://localhost/user-buku/books.php
 
 ## 4. Akses aplikasi di browser:
 
@@ -66,3 +64,4 @@ Hapus Buku → klik Delete, konfirmasi, data terhapus.
 Cover lama tetap dipakai jika tidak diganti saat edit.
 
 Path file cover disimpan di database, file fisik di folder uploads/
+
